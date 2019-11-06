@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./js/main.js?");
+eval("document.addEventListener(\"DOMContentLoaded\", function () {\n  console.log(\"Webpack starter\");\n});\n\n//# sourceURL=webpack:///./js/main.js?");
 
 /***/ }),
 
@@ -115,7 +115,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./scss
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! D:\\Hugo\\Documents\\Année-gobelins\\Ressource dev\\webpack\\src/js/main.js */\"./js/main.js\");\nmodule.exports = __webpack_require__(/*! D:\\Hugo\\Documents\\Année-gobelins\\Ressource dev\\webpack\\src/scss/main.scss */\"./scss/main.scss\");\n\n\n//# sourceURL=webpack:///multi_./js/main.js_./scss/main.scss?");
+eval("__webpack_require__(/*! D:\\wamp64\\www\\webpack-test\\src/js/main.js */\"./js/main.js\");\nmodule.exports = __webpack_require__(/*! D:\\wamp64\\www\\webpack-test\\src/scss/main.scss */\"./scss/main.scss\");\n\n\n//# sourceURL=webpack:///multi_./js/main.js_./scss/main.scss?");
 
 /***/ })
 

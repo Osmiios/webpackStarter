@@ -130,7 +130,7 @@ let config = {
         new BrowserSyncPlugin( {
                 host: 'localhost',
                 port: 3000,
-                proxy: 'http://localhost/webpack/'
+                proxy: 'http://localhost/webpack-test/'
             },
             {
                 reload: true
@@ -144,7 +144,7 @@ let config = {
     /* Output definition */
     output: {
         path: path.join(__dirname, '/../dist/js/'),
-        filename: '[na me].js'
+        filename: '[name].js'
     }
 };
 
